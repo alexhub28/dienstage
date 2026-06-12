@@ -21,7 +21,7 @@ function preload() {
 
 function setup() {
   createCanvas(1000, 550);
-  textFont("Frutiger");
+  textFont("Arial");
 
   for (let r = 0; r < table.getRowCount(); r++) {
     years.push(table.getNum(r, "Jahr"));
